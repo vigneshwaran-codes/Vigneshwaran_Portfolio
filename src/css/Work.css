@@ -1,0 +1,32 @@
+.project_text{
+    margin: 4rem;
+    margin-left: 12rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 260px;
+    font-weight: 700;
+    width: auto;
+}
+
+.project_text::selection{
+    background-color: #05cE91;
+    color: #fafafa;
+}
+
+.link{
+        cursor: pointer;
+        color: #fafafa;
+        background-color: #161616;
+        font-size: 20px;
+        text-decoration: none;
+        margin: 2rem;
+        padding: 7px;
+        border: 1px solid #111;
+        border-radius: 12px;
+}
+
+@media screen and (max-width: 769px) and (min-width: 375px) {
+    .project_text{
+        margin: 1rem;
+        font-size: 5rem;
+    }
+}

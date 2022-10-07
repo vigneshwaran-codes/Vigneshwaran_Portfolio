@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+.about_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 45px;
+    margin-bottom: 20px;
+    padding: 18px;
+    background-color:#99eeff;
+background-image:
+radial-gradient(at 5% 63%, hsla(186,73%,67%,1) 0px, transparent 50%),
+radial-gradient(at 58% 70%, hsla(341,69%,77%,1) 0px, transparent 50%),
+radial-gradient(at 3% 90%, hsla(10,82%,79%,1) 0px, transparent 50%),
+radial-gradient(at 18% 46%, hsla(178,76%,78%,1) 0px, transparent 50%),
+radial-gradient(at 9% 94%, hsla(17,79%,65%,1) 0px, transparent 50%),
+radial-gradient(at 50% 18%, hsla(171,91%,62%,1) 0px, transparent 50%),
+radial-gradient(at 48% 85%, hsla(205,97%,70%,1) 0px, transparent 50%);
+
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    margin-left: 12rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    word-spacing: 3px;
+    line-height: 1.6;
+}
+
+.about_intro_txt{
+    margin: 5px;
+    padding: 2px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.about_img{
+    margin: 24px;
+    width: 40%;
+    border-radius: 24px;
+}
+
+.about_btn{
+    background-color: #161616;
+    color: #fafafa;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.about_intro_title{
+    font-size: 42px;
+    padding-bottom: 10px;
+
+}
+
+.about_timeline{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 12rem;
+}
+
+.about_timeline_title{
+    font-size: 56px;
+}
+
+.cta_btn{
+    cursor: pointer;
+    margin: 8px;
+    padding: 18px;
+    width: 15%;
+    text-align: inherit;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    background-color: #05cE91;
+    color: #F5F8F9;
+    border: none;
+    border-radius: 8px;
+}
+
+.cta_link{
+    text-decoration: none;
+    color: #F5F8F9;
+}
+.about_timeline_education{
+    list-style: none;
+    padding:10px;
+    margin: 24px;
+    margin-bottom: 4rem;
+    margin-left: 14rem;
+    line-height: 2.0;
+    font-size: 16px;
+    word-spacing: 2px;
+}
+
+.about_timeline_education_list{
+    margin: 2rem;
+}
+
+.certify_link{
+    position: relative;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    color: #161616;
+}
+
+.certify_link:after{
+    content: '';
+    position: absolute;
+    background-color: #00EEB6;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.certify_link:hover:after{
+    width: 100%;
+}
+
+.certify_link:hover{
+    color: #a0a0a0;
+}
+.about_timeline_heading{
+   margin-bottom: 12px;
+}
+
+.about_timeline_education_course_text{
+    font-weight: 300;
+}
+
+.about_timeline_course_year{
+    font-weight: 300;
+}
+
+@media screen and (max-width: 810px) and (min-width: 370px ) {
+
+    .about{
+        margin-left: 3px;
+    }
+
+    .about_intro_title{
+        font-size: 34px;
+    }
+
+    .about_intro_txt{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .about_img{
+        width: 100%;
+        margin: 15px;
+    }
+
+    .cta_btn{
+        width: 85%;
+    }
+    .about_timeline{
+        width: 100%;
+        margin: 5px;
+    }
+    
+    .about_timeline_title{
+        font-size: 36px;
+        margin-left: 3.5rem;
+        width: 100%;
+    }
+
+    .about_timeline_education{
+        margin-top: 10px;
+        margin-left: -150px;
+    }
+
+    .about_timeline_education_list>h2{
+        font-size: 18px;
+    }
+
+    .about_timeline_heading{
+        width: 100%;
+        font-size: 28px;
+        margin-top: 7rem;
+
+    }
+
+    .certify_link{
+        font-size: 24px;
+    }
+
+    .course_name{
+        font-size: 18px;
+    }
+
+}

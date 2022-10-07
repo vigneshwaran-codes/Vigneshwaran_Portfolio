@@ -1,0 +1,62 @@
+.about_skills{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 12rem;
+}
+
+.about_skills_title{
+    font-size: 56px;
+    padding-bottom: 10px;
+}
+
+.about_tools{
+    list-style: none;
+    padding:10px;
+    margin: 24px;
+    margin-bottom: 4rem;
+    margin-left: 14rem;
+    line-height: 2.0;
+    font-size: 16px;
+    word-spacing: 2px;
+}
+
+.about_tools_list{
+    margin: 2rem;
+}
+
+.about_tools_heading{
+    margin-bottom: 12px;
+}
+
+.skill{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border: 1px solid #161616;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
+}
+
+@media screen and (max-width: 810px) and (min-width: 370px){
+    .about_skills{
+        width: auto;
+        margin-left: 2px;
+        display: block;
+    }
+
+    .about_tools{
+       margin-left:45px;
+       margin-top: 1rem;
+       font-size: 12px;
+       padding: 2px;
+    }
+
+    .skill{
+        font-size: 14px;
+    }
+
+}

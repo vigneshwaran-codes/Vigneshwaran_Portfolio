@@ -1,0 +1,21 @@
+@import 'Navbar.css';
+@import 'Intro.css';
+@import 'About.css';
+@import 'Contact.css';
+@import 'Work.css';
+@import 'Card.css';
+@import 'Projects.css';
+@import 'Footer.css';
+@import 'Errorpage.css';
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@500&family=Philosopher:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif ;
+}

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@300&display=swap');
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 30px;
+}
+
+.navbar_title{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 32px;
+    cursor: pointer;
+  }
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 34px;
+}
+
+.nav_li{
+    list-style: none;
+    padding: 0 30px;
+}
+
+.nav_link{
+    margin: 8px;
+    margin-left:48px;
+    padding: 12px;
+    font-weight: 300;
+    position: relative;
+    text-decoration: none;
+    color: #161616;
+    transition : 0.3s ease-in-out;
+    font-family: 'Kulim Park', sans-serif;
+    font-size: 20px;
+}
+
+.nav_link:after{
+    content: '';
+    position: absolute;
+    background-color: #17cf97;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+}
+
+.nav_link:hover:after{
+    width: 100%;
+}
+
+.nav_link:hover{
+    background-color: rgb(42, 42, 42);
+    /* transition: background 0.5s; */
+    color: whitesmoke;
+    border-radius: 4px;
+}
+
+.bar{
+    cursor: pointer;
+}
+
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width: 769px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: fixed;
+        top: 28px;
+        right: -335px;
+        width: 300px;
+        max-height: 100vh;
+        background: linear-gradient(#ff512f, #dd2476);
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 40px 0 0 10px;
+        transition:0.3s ease-in-out;
+    }
+
+    .navbar.active{
+        right: -40px;
+    }
+
+    .nav_li{
+        margin-bottom: 25px;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .bar{
+        font-size: 24px;
+        cursor: pointer;
+    }
+}

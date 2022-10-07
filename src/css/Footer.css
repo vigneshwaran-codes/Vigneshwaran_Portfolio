@@ -1,0 +1,111 @@
+.connect_title{
+    font-family: 'Allura', sans-serif;
+    font-size: 45px;
+    padding: 4px;
+}
+.connect_txt{
+    cursor: text;
+    margin:2px;
+    font-size: 24px;
+}
+
+.connect_txt::selection{
+    background-color: #00EEB6;
+    color: #fafafa;
+}
+.connect_details{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+    padding: 2rem;
+}
+
+.social_links{
+    list-style: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.footer_link{
+    margin: 2px;
+    padding: 8px;
+}
+
+.footer_link>a{
+    text-decoration: none;
+    color: #161616;
+}
+
+.connect_intro_txt{
+    margin-top: 6rem;
+    margin-left: 13rem;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+.author_title{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 26px;
+    cursor: pointer;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.made{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.made_icon{
+    margin: 2px 8px;
+}
+
+.footer{   
+color: #333;
+background-image: radial-gradient(at 48% 85%, rgb(78, 236, 253) 0px, transparent 50%);
+}
+
+@media screen and (max-width: 810px) and (min-width: 375px) {
+
+    .connect_intro_txt{
+        margin-top: 6rem;
+        margin-left: 2rem;
+        font-size: 22px;
+        text-decoration: underline;
+    }
+
+    .connect_details{
+        margin-right: 28px;
+        justify-content: space-between;
+    }
+
+    .connect_title{
+    font-size: 20px;
+    }
+
+    .connect_txt{
+        font-size: 10px;
+    }
+
+    .social_links{
+        font-size: 12px;
+    }
+
+    .author_title{
+        font-size: 20px;
+    }
+
+    .made{
+        font-size: 8px;
+        letter-spacing: 1.5px;
+    }
+
+    .made_icon{
+        margin: 0 4px;
+    }
+
+}
