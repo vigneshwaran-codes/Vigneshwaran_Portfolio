@@ -23,7 +23,7 @@ export default function Intro () {
       <br />
       <button className='intro_cta_btn'>
         <a
-          href='https://drive.google.com/file/d/18Y993Z8ERyRLFHTokqgoR_DLCbWyBH0C/view?usp=sharing'
+          href='https://drive.google.com/file/d/1AT1w_fqhrK2US2Oj2VOHCjq7ue80hDDp/view?usp=sharing'
           target='_blank'
           rel='noopener noreferrer'
           className='intro_cta_link'

@@ -36,20 +36,20 @@ export default function About () {
             I am actively seeking entry level roles for
             developer.
           </p>
-        <button className='cta_btn'>
+          <button className='cta_btn'>
             <a
-              href='https://drive.google.com/file/d/18Y993Z8ERyRLFHTokqgoR_DLCbWyBH0C/view?usp=sharing'
+              href='https://drive.google.com/file/d/1AT1w_fqhrK2US2Oj2VOHCjq7ue80hDDp/view?usp=sharing'
               target='_blank'
               rel='noopener noreferrer'
               className='cta_link'
             >
               Resume <BsArrowDownCircle />
             </a>
-        </button>
-        <picture>
-          <source srcSet={PicWebp} type='image/webp' />
-          <img src={PicJpg} alt='me' className='about_img' />
-        </picture>
+          </button>
+          <picture>
+            <source srcSet={PicWebp} type='image/webp' />
+            <img src={PicJpg} alt='me' className='about_img' />
+          </picture>
         </div>
         <div>
           <Skills />
