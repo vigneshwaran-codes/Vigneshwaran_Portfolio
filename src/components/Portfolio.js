@@ -22,9 +22,9 @@ export default function Portfolio () {
             <p>Workboard is a MERN Stack application<br />
               which manages projects and clients
             </p>
-            <a href='https://workboard-app.netlify.app' target='_blank' rel='noopener noreferrer'>workboard-app.netlify.app <MdCallMade /></a>{' '}
-            <a href='https://github.com/vigneshwaran-codes/Workboard-cli' target='_blank' rel='noopener noreferrer'><FaGithub /> Frontend <MdCallMade /></a>{' '}
-            <a href='https://github.com/vigneshwaran-codes/Workboard-server' target='_blank' rel='noopener noreferrer'><FaGithub /> Backend <MdCallMade /></a>
+            <a href='https://workboard-app.netlify.app' className='projects_link' target='_blank' rel='noopener noreferrer'>workboard-app.netlify.app <MdCallMade /></a>{' '}
+            <a href='https://github.com/vigneshwaran-codes/Workboard-cli' className='projects_link' target='_blank' rel='noopener noreferrer'><FaGithub /> Frontend </a>{' '}
+            <a href='https://github.com/vigneshwaran-codes/Workboard-server' className='projects_link' target='_blank' rel='noopener noreferrer'><FaGithub /> Backend </a>
           </div>
         </div>
         <div className='card card2'>
@@ -37,8 +37,8 @@ export default function Portfolio () {
               used to track our income and expenditures from various sources.
             </p>
             <a href='https://expense-note.netlify.app' target='_blank' rel='noopener noreferrer'>expense-note.netlify.app <MdCallMade /></a>{' '}
-            <a href='https://github.com/vigneshwaran-codes/expense_note-cli' target='_blank' rel='noopener noreferrer'><FaGithub /> Frontend <MdCallMade /></a>{' '}
-            <a href='https://github.com/vigneshwaran-codes/expense_note-server' target='_blank' rel='noopener noreferrer'><FaGithub /> Backend <MdCallMade /></a>
+            <a href='https://github.com/vigneshwaran-codes/expense_note-cli' target='_blank' rel='noopener noreferrer'><FaGithub /> Frontend </a>{' '}
+            <a href='https://github.com/vigneshwaran-codes/expense_note-server' target='_blank' rel='noopener noreferrer'><FaGithub /> Backend </a>
           </div>
         </div>
         <div className='card card3'>
@@ -51,8 +51,8 @@ export default function Portfolio () {
               used to track orders and integrated Stripe as a payment gateway.
             </p>
             <a href='https://pizzahotdelivery.netlify.app' target='_blank' rel='noopener noreferrer'>pizzahotdelivery.netlify.app <MdCallMade /></a>{' '}
-            <a href='https://github.com/vigneshwaran-codes/Pizza_Delivery-App-cli' target='_blank' rel='noopener noreferrer'><FaGithub /> Frontend <MdCallMade /></a>{' '}
-            <a href='https://github.com/vigneshwaran-codes/Pizza_Delivery-App-server' target='_blank' rel='noopener noreferrer'><FaGithub /> Backend <MdCallMade /></a>
+            <a href='https://github.com/vigneshwaran-codes/Pizza_Delivery-App-cli' target='_blank' rel='noopener noreferrer'><FaGithub /> Frontend </a>{' '}
+            <a href='https://github.com/vigneshwaran-codes/Pizza_Delivery-App-server' target='_blank' rel='noopener noreferrer'><FaGithub /> Backend </a>
           </div>
         </div>
         <div className='card card4'>
@@ -65,8 +65,8 @@ export default function Portfolio () {
               we can create and share documents using web sockets.
             </p>
             <a href='https://googledocs-clone.netlify.app' target='_blank' rel='noopener noreferrer'>googledocs-clone.netlify.app <MdCallMade /></a>{' '}
-            <a href='https://github.com/vigneshwaran-codes/googledocs_clone-cli' target='_blank' rel='noopener noreferrer'><FaGithub /> Frontend <MdCallMade /></a>{' '}
-            <a href='https://github.com/vigneshwaran-codes/googledocs_clone-server' target='_blank' rel='noopener noreferrer'><FaGithub /> Backend <MdCallMade /></a>
+            <a href='https://github.com/vigneshwaran-codes/googledocs_clone-cli' target='_blank' rel='noopener noreferrer'><FaGithub /> Frontend </a>{' '}
+            <a href='https://github.com/vigneshwaran-codes/googledocs_clone-server' target='_blank' rel='noopener noreferrer'><FaGithub /> Backend </a>
           </div>
         </div>
         <div className='card card1'>
@@ -78,9 +78,9 @@ export default function Portfolio () {
             <p>This is Assign-Mentor application using MERN Stack<br />
               We can add, assign students and mentors in this portal
             </p>
-            <a href='https://assign-mentors-students.netlify.app' target='_blank' rel='noopener noreferrer'>assign-mentors-students.netlify.app <MdCallMade /></a>{' '}
-            <a href='https://github.com/vigneshwaran-codes/assign-mentor-cli' target='_blank' rel='noopener noreferrer'><FaGithub /> Frontend <MdCallMade /></a>{' '}
-            <a href='https://github.com/vigneshwaran-codes/assign-mentor' target='_blank' rel='noopener noreferrer'><FaGithub /> Backend <MdCallMade /></a>
+            <a href='https://assign-mentors-students.netlify.app' target='_blank' rel='noopener noreferrer'>assign-mentors.netlify.app<MdCallMade /></a>{' '}
+            <a href='https://github.com/vigneshwaran-codes/assign-mentor-cli' target='_blank' rel='noopener noreferrer'><FaGithub /> Frontend </a>{' '}
+            <a href='https://github.com/vigneshwaran-codes/assign-mentor' target='_blank' rel='noopener noreferrer'><FaGithub /> Backend </a>
           </div>
         </div>
         <div className='card card3'>
@@ -93,7 +93,7 @@ export default function Portfolio () {
               We can add posts and user,this Admin panel where user can edit , delete post and user details
             </p>
             <a href='https://poster-blog.netlify.app' target='_blank' rel='noopener noreferrer'>poster-blog.netlify.app <MdCallMade /></a>{' '}
-            <a href='https://github.com/vigneshwaran-codes/react-task-5' target='_blank' rel='noopener noreferrer'><FaGithub /> Frontend <MdCallMade /></a>
+            <a href='https://github.com/vigneshwaran-codes/react-task-5' target='_blank' rel='noopener noreferrer'><FaGithub /> Frontend </a>
           </div>
         </div>
         <div className='card card4'>
@@ -106,7 +106,7 @@ export default function Portfolio () {
               Using Formik library and yup validate the given fields
             </p>
             <a href='https://login-register-formik.netlify.app' target='_blank' rel='noopener noreferrer'>login-register-formik.netlify.app <MdCallMade /></a>{' '}
-            <a href='https://github.com/vigneshwaran-codes/react-task-7' target='_blank' rel='noopener noreferrer'><FaGithub /> Frontend <MdCallMade /></a>
+            <a href='https://github.com/vigneshwaran-codes/react-task-7' target='_blank' rel='noopener noreferrer'><FaGithub /> Frontend </a>
           </div>
         </div>
       </div>

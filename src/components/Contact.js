@@ -23,7 +23,7 @@ export default function Contact () {
       <div className='contact_links'>
         <p className='contact_bottom_txt'>You can also find and follow me here:</p>
         <h2 className='contact_link_txt'>
-          <a href='calendy' className='contact_link'>
+          <a href='tel:+918825562096' className='contact_link'>
             <MdCall />
             {' '}
             Call
